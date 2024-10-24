@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet to Give</title>
+    <link rel="stylesheet" href="formatWebsite.css" />
+    <style>
+      fieldset {
+        border-width: 10px;
+        border-color: rgb(242, 236, 223);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <table>
+        <tr>
+          <td>
+            <a href="question8.html">
+              <img src="logo.jpg" alt="" class="headerimg" />
+            </a>
+          </td>
+          <td>
+            <h1 class="p1">Halupa Halude Shelter</h1>
+            <p class="p2"><i>Find your lifelong companion </i></p>
+            <p class="date" id="FA"></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <div style="text-align: center">
+            <h2 class="p1">
+              <i>
+                Do you have a pet to give away for adoption ?
+                <br />
+                <br />
+                Tell us all about your furry friend !</i
+              >
+            </h2>
+            <h3 class="p1">
+              Please fill out the following form according to accurate
+              information on the pet you want to give away for adoption.
+            </h3>
+          </div>
+          <form
+            method="get"
+            name="petToGiveForm"
+            onsubmit="submitPetToGiveForm(event)"
+          >
+            <fieldset>
+              <legend class="p1">Halupa Halude Shelter</legend>
+
+              <p class="p1">Is your pet a dog or a cat?</p>
+              <label>
+                <input type="radio" name="pet" value="Cat" />
+                Cat
+              </label>
+              <label>
+                <input type="radio" name="pet" value="Dog" />
+                Dog
+              </label>
+              <br />
+              <br />
+              <p class="p1">Which breed of dog or cat is your pet?</p>
+              <label>
+                <input type="radio" name="breed" value="Siamese" />
+                Siamese
+              </label>
+              <label>
+                <input type="radio" name="breed" value="Bengal" />
+                Bengal
+              </label>
+              <label>
+                <input type="radio" name="breed" value="MaineCoon" />
+                Maine Coon
+              </label>
+              <label>
+                <input type="radio" name="breed" value="Ragdoll" />
+                Ragdoll
+              </label>
+              <label>
+                <input type="radio" name="breed" value="GoldenRetriever" />
+                Golden Retriever
+              </label>
+              <label>
+                <input type="radio" name="breed" value="Beagle" />
+                Beagle
+              </label>
+              <label>
+                <input type="radio" name="breed" value="Akita" />
+                Akita
+              </label>
+              <label>
+                <input type="radio" name="breed" value="Bernese" />
+                Bernese Mountain Dog
+              </label>
+              <label>
+                <input type="radio" name="breed" value="Boxer" />
+                Boxer
+              </label>
+              <br />
+              <label>
+                <input type="radio" name="breed" value="Other" />
+                Other
+              </label>
+              <br />
+              <br />
+              <p class="p1">What is the age of your pet?</p>
+              <select name="age" id="age">
+                <option>0 to 1 year old</option>
+                <option>1 to 3 years old</option>
+                <option>3 to 5 years old</option>
+                <option>Senior</option>
+                <option>I don't know</option>
+              </select>
+              <br />
+              <br />
+              <p class="p1">What is the gender of your pet?</p>
+              <label>
+                <input type="radio" name="gender" value="Female" />
+                Female
+              </label>
+              <label>
+                <input type="radio" name="gender" value="Male" />
+                Male
+              </label>
+              <br />
+              <br />
+              <p class="p1">Does your pet get along with dogs?</p>
+              <label>
+                <input type="radio" name="withDogs" value="Yes" />
+                Yes
+              </label>
+              <label>
+                <input type="radio" name="withDogs" value="No" />
+                No
+              </label>
+              <br />
+              <br />
+              <p class="p1">Does your pet get along with cats?</p>
+              <label>
+                <input type="radio" name="withCats" value="Yes" />
+                Yes
+              </label>
+              <label>
+                <input type="radio" name="withCats" value="No" />
+                No
+              </label>
+              <br />
+              <br />
+              <p class="p1">
+                Is your pet suitable for a family with small children?
+              </p>
+              <label>
+                <input type="radio" name="withChildren" value="Yes" />
+                Yes
+              </label>
+              <label>
+                <input type="radio" name="withChildren" value="No" />
+                No
+              </label>
+              <br />
+              <br />
+              <p class="p1">Tell us more about your pet!</p>
+              <p>
+                <textarea
+                  name="aspirations"
+                  cols="50"
+                  rows="5"
+                  id="moreAboutPet"
+                >
+                (Be brief and concise)
+                </textarea>
+              </p>
+              <br />
+
+              <p class="p1">Please enter your personal information.</p>
+              <p class="p1">
+                First Name of the Current Owner:
+                <input type="text" id="firstName" />
+              </p>
+              <p class="p1">
+                Family Name of the Current Owner:
+                <input type="text" id="familyName" />
+              </p>
+              <p class="p1">
+                Email Adress of the Current Owner:
+                <input type="email" id="email" />
+              </p>
+              <br />
+
+              <p class="p1">
+                Thank you for taking the time to fill out this survey.
+                <br />
+                We will get back to you as soon as we find the perfect home for
+                your pet!
+              </p>
+              <input type="reset" value="Reset Form" />
+              <input type="submit" value="Submit Form" />
+              <br />
+              <br />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+        <div class="card">
+          <br />
+          <br />
+          <ul class="p1">
+            <li><a href="question8.html"> Home</a></li>
+            <li><a href="browsePets.html">Browse Available Pets</a></li>
+            <li><a href="findPet.html"> Find a Pet</a></li>
+            <li><a href="dogCare.html"> Dog Care</a></li>
+            <li><a href="catCare.html"> Cat Care</a></li>
+            <li>
+              <a class="active" href="petToGive.html">
+                Have a Pet to Give Away</a
+              >
+            </li>
+            <li><a href="contactUs.html"> Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="p1">Halupa Halude Shelter</p>
+      <p class="p1">
+        <a href="privacyStatement.html">Privacy/Disclaimer Statement </a>
+      </p>
+      <p class="p1">
+        <a href="imageReferences.html"> References to all pictures </a>
+      </p>
+    </div>
+    <script src="website.js"></script>
+  </body>
+</html>

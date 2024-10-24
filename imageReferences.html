@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>References/Sources</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background-color: rgb(242, 236, 223);
+      }
+
+      .p1 {
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+      .p2 {
+        font-family: Georgia, serif;
+      }
+
+      .header {
+        text-align: left;
+        padding: 25px;
+        background-image: url("wallpaper1.jpg");
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column  rgb(211, 167, 140) */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-image: url("wallpaper.jpg");
+        padding: 20px;
+        margin-top: 20px;
+        min-height: 750px;
+        border-style: ridge;
+        border-color: slategray;
+        border-width: 5px;
+      }
+
+      .footer {
+        background-image: url("wallpaper1.jpg");
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        width: 270px;
+        background-color: #f1f1f1;
+        text-align: center;
+      }
+      li a {
+        display: block;
+        color: #000;
+        padding: 16px 32px;
+        text-decoration: none;
+      }
+      li a.active {
+        background-color: rgb(61, 50, 40);
+        color: white;
+      }
+
+      li a:hover:not(.active) {
+        background-color: rgb(139, 130, 130);
+        color: rgb(61, 50, 40);
+      }
+
+      .headerimg {
+        width: 150px;
+        border-radius: 50%;
+        float: left;
+        margin-left: 250px;
+      }
+
+      .intextimg {
+        background-color: rgb(242, 236, 223);
+        width: 100%;
+        padding: 10px;
+      }
+
+      .contactimg {
+        width: 130px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 20px;
+      }
+
+      table,
+      td {
+        padding: 10px;
+        text-align: center;
+      }
+
+      /* unvisited link */
+      a:link {
+        color: rgb(61, 50, 40);
+        text-decoration: none;
+      }
+
+      /* visited link */
+      a:visited {
+        color: rgb(61, 50, 40);
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: rgb(242, 236, 223);
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <table>
+        <tr>
+          <td>
+            <a href="question8.html">
+              <img src="logo.jpg" alt="" class="headerimg" />
+            </a>
+          </td>
+          <td>
+            <h1 class="p1">Halupa Halude Shelter</h1>
+            <p class="p2"><i>Find your lifelong companion </i></p>
+            <p class="date" id="FA"></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <div style="text-align: center">
+            <h2 class="p1">
+              <i> References/Sources of All Images Used in This Project </i>
+            </h2>
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <img src="logo.jpg" alt="" class="contactimg" />
+          <br />
+          <h3 class="p1">
+            <a href="https://deepai.org/machine-learning-model/text2img">
+              Logo's Source</a
+            >
+          </h3>
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <img src="dogsandcats.jpg" alt="" class="contactimg" />
+          <h3 class="p1">
+            <a
+              href="https://blog.invisiblefence.com/tips-for-living-with-both-cats-and-dogs"
+            >
+              Home Page Image's Source</a
+            >
+          </h3>
+          <br />
+
+          <img src="wallpaper.jpg" alt="" class="contactimg" />
+          <br />
+          <br />
+          <br />
+          <h3 class="p1">
+            <a
+              href="https://www.wallpaperstogo.com/p-247156-linen-look-beige-brown-wallpaper.aspx"
+            >
+              Background of Content & Side Areas' Source
+            </a>
+          </h3>
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <img src="wallpaper1.jpg" alt="" class="contactimg" />
+          <br />
+          <br />
+          <br />
+          <h3 class="p1">
+            <a
+              href="https://www.wallpaperstogo.com/p-236028-etched-chevron-glint-wallpaper.aspx?MPN"
+            >
+              Background of Header & Footer Areas' Source</a
+            >
+          </h3>
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <img src="avatar.jpg" alt="" class="contactimg" />
+          <br />
+          <br />
+          <h3 class="p1">
+            <a
+              href="https://timandjulieharris.com/2022/02/17/meta-launches-improved-avatars-expands-avatar-use-on-social-media-platforms.html"
+              >Digital Avatar Image's Source</a
+            >
+          </h3>
+          <br />
+          <br />
+          <br />
+
+          <img src="studentID.png" alt="" class="contactimg" />
+          <br />
+          <br />
+          <h3 class="p1">
+            <a
+              href="https://www.iconexperience.com/g_collection/icons/?icon=id_badge"
+            >
+              Student Identification Image's Source</a
+            >
+          </h3>
+          <br />
+          <br />
+          <br />
+
+          <img src="telephone.jpg" alt="" class="contactimg" />
+          <br />
+          <br />
+          <h3 class="p1">
+            <a
+              href="https://www.vecteezy.com/vector-art/15720159-eps10-orange-vector-phone-call-or-telephone-abstract-icon-isolated-on-white-background-contact-us-or-hotline-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-and-mobile-app"
+              >Telephone Number Image's Source</a
+            >
+          </h3>
+          <br />
+          <br />
+          <br />
+
+          <img src="location.jpg" alt="" class="contactimg" />
+          <br />
+          <br />
+          <h3 class="p1">
+            <a
+              href="https://www.template.net/editable/101997/orange-location-clipart"
+            >
+              Location Image's Source</a
+            >
+          </h3>
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+        <div class="card">
+          <br />
+          <br />
+          <ul class="p1">
+            <li><a class="active" href="question8.html"> Home</a></li>
+            <li><a href="browsePets.html">Browse Available Pets</a></li>
+            <li><a href="findPet.html"> Find a Pet</a></li>
+            <li><a href="dogCare.html"> Dog Care</a></li>
+            <li><a href="catCare.html"> Cat Care</a></li>
+            <li><a href="petToGive.html"> Have a Pet to Give Away</a></li>
+            <li><a href="contactUs.html"> Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="p1">Halupa Halude Shelter</p>
+      <p class="p1">
+        <a href="privacyStatement.html">Privacy/Disclaimer Statement </a>
+      </p>
+      <p class="p1">
+        <a href="imageReferences.html"> References to all pictures </a>
+      </p>
+    </div>
+    <script src="website.js"></script>
+  </body>
+</html>
