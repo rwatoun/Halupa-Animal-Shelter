@@ -6,6 +6,8 @@ This is a simple website project for an animal shelter, built using HTML, CSS, a
 
 - **Homepage**: Introduces the shelter and its mission.
 - **Adoption Page**: Lists animals available for adoption with photos and descriptions.
+- **Pet Care Information**: Pages with tips and guides on taking care of cats and dogs.
+- **Pet Surrender Form**: A form for users who want to give their pets away.
 - **Contact Form**: A form for users to get in touch with the shelter.
 
 ## Prerequisites
@@ -40,7 +42,9 @@ Before running the project, make sure you have the following:
 
 1. Browse through the homepage to learn about the shelter.
 2. Navigate to the **Adoption Page** to view available animals.
-3. Use the **Contact Form** to send inquiries or feedback to the shelter.
+3. Visit the **Care Pages** for tips on how to take care of a cat or a dog.
+4. Use the **Contact Form** to send inquiries or feedback to the shelter.
+5. Use the **Pet Surrender Form** if you need to give a pet away.
 
 ---
 
